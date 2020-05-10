@@ -1,0 +1,126 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>CompositionNode - openrndr</title>
+<link rel="stylesheet" href="../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">openrndr</a>&nbsp;/&nbsp;<a href="../index.html">org.openrndr.shape</a>&nbsp;/&nbsp;<a href="./index.html">CompositionNode</a><br/>
+<br/>
+<h1>CompositionNode</h1>
+<code><span class="keyword">sealed</span> <span class="keyword">class </span><span class="identifier">CompositionNode</span></code> <a href="https://github.com/openrndr/openrndr/blob/master/openrndr-core/src/main/kotlin/openrndr-shape/src/main/kotlin/org/openrndr/shape/Composition.kt#L6">(source)</a>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="bounds.html">bounds</a></h4>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">val </span><span class="identifier">bounds</span><span class="symbol">: </span><a href="../-rectangle/index.html"><span class="identifier">Rectangle</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="effective-fill.html">effectiveFill</a></h4>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">effectiveFill</span><span class="symbol">: </span><a href="../../org.openrndr.color/-color-r-g-ba/index.html"><span class="identifier">ColorRGBa</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="effective-stroke.html">effectiveStroke</a></h4>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">effectiveStroke</span><span class="symbol">: </span><a href="../../org.openrndr.color/-color-r-g-ba/index.html"><span class="identifier">ColorRGBa</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="fill.html">fill</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">fill</span><span class="symbol">: </span><a href="../-composition-color.html"><span class="identifier">CompositionColor</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="id.html">id</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">id</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="parent.html">parent</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">parent</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">CompositionNode</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="stroke.html">stroke</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">stroke</span><span class="symbol">: </span><a href="../-composition-color.html"><span class="identifier">CompositionColor</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="stroke-weight.html">strokeWeight</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">strokeWeight</span><span class="symbol">: </span><a href="../-composition-stroke-weight.html"><span class="identifier">CompositionStrokeWeight</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="transform.html">transform</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">transform</span><span class="symbol">: </span><a href="../../org.openrndr.math/-matrix44/index.html"><span class="identifier">Matrix44</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Extension Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="../filter.html">filter</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><a href="./index.html"><span class="identifier">CompositionNode</span></a><span class="symbol">.</span><span class="identifier">filter</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$filter(org.openrndr.shape.CompositionNode, kotlin.Function1((org.openrndr.shape.CompositionNode, kotlin.Boolean)))/filter">filter</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="./index.html"><span class="identifier">CompositionNode</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">CompositionNode</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../map.html">map</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><a href="./index.html"><span class="identifier">CompositionNode</span></a><span class="symbol">.</span><span class="identifier">map</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$map(org.openrndr.shape.CompositionNode, kotlin.Function1((org.openrndr.shape.CompositionNode, )))/mapper">mapper</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="./index.html"><span class="identifier">CompositionNode</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="./index.html"><span class="identifier">CompositionNode</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">CompositionNode</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Inheritors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="../-group-node/index.html">GroupNode</a></h4>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">class </span><span class="identifier">GroupNode</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">CompositionNode</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../-shape-node/index.html">ShapeNode</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">ShapeNode</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">CompositionNode</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../-text-node/index.html">TextNode</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">TextNode</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">CompositionNode</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

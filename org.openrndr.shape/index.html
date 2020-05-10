@@ -1,0 +1,445 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>org.openrndr.shape - openrndr</title>
+<link rel="stylesheet" href="../style.css">
+</HEAD>
+<BODY>
+<a href="../index.html">openrndr</a>&nbsp;/&nbsp;<a href="./index.html">org.openrndr.shape</a><br/>
+<br/>
+<h2>Package org.openrndr.shape</h2>
+<h3>Types</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="-circle/index.html">Circle</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">Circle</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-color/index.html">Color</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">Color</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="-composition-color.html"><span class="identifier">CompositionColor</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-composition/index.html">Composition</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">Composition</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-composition-color.html">CompositionColor</a></h4>
+</td>
+<td>
+<code><span class="keyword">sealed</span> <span class="keyword">class </span><span class="identifier">CompositionColor</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-composition-drawer/index.html">CompositionDrawer</a></h4>
+</td>
+<td>
+<p>A Drawer-like interface for the creation of Compositions
+This should be easier than creating Compositions manually</p>
+<code><span class="keyword">class </span><span class="identifier">CompositionDrawer</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-composition-node/index.html">CompositionNode</a></h4>
+</td>
+<td>
+<code><span class="keyword">sealed</span> <span class="keyword">class </span><span class="identifier">CompositionNode</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-composition-stroke-weight.html">CompositionStrokeWeight</a></h4>
+</td>
+<td>
+<code><span class="keyword">sealed</span> <span class="keyword">class </span><span class="identifier">CompositionStrokeWeight</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-compound/index.html">Compound</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">Compound</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-compound-builder/index.html">CompoundBuilder</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">CompoundBuilder</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-contour-builder/index.html">ContourBuilder</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">ContourBuilder</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-contour-projection/index.html">ContourProjection</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">ContourProjection</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-fill-rule/index.html">FillRule</a></h4>
+</td>
+<td>
+<code><span class="keyword">enum</span> <span class="keyword">class </span><span class="identifier">FillRule</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-group-node/index.html">GroupNode</a></h4>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">class </span><span class="identifier">GroupNode</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="-composition-node/index.html"><span class="identifier">CompositionNode</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-group-node-stop/index.html">GroupNodeStop</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">GroupNodeStop</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="-group-node/index.html"><span class="identifier">GroupNode</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-indexed-triangulation/index.html">IndexedTriangulation</a></h4>
+</td>
+<td>
+<p>Indexed triangulation consisting of a list of vertices and triangle indices.</p>
+<code><span class="keyword">class </span><span class="identifier">IndexedTriangulation</span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-inherit-color.html">InheritColor</a></h4>
+</td>
+<td>
+<code><span class="keyword">object </span><span class="identifier">InheritColor</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="-composition-color.html"><span class="identifier">CompositionColor</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-inherit-stroke-weight.html">InheritStrokeWeight</a></h4>
+</td>
+<td>
+<code><span class="keyword">object </span><span class="identifier">InheritStrokeWeight</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="-composition-stroke-weight.html"><span class="identifier">CompositionStrokeWeight</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-int-rectangle/index.html">IntRectangle</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">IntRectangle</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-line-segment/index.html">LineSegment</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">LineSegment</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-line-segment3-d/index.html">LineSegment3D</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">LineSegment3D</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-path3-d/index.html">Path3D</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">Path3D</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-path3-d-builder/index.html">Path3DBuilder</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">Path3DBuilder</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-path-projection3-d/index.html">PathProjection3D</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">PathProjection3D</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-rectangle/index.html">Rectangle</a></h4>
+</td>
+<td>
+<code><span class="keyword">data</span> <span class="keyword">class </span><span class="identifier">Rectangle</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-segment/index.html">Segment</a></h4>
+</td>
+<td>
+<p>Segment describes a linear or bezier path between two points</p>
+<code><span class="keyword">class </span><span class="identifier">Segment</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-segment3-d/index.html">Segment3D</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">Segment3D</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-segment-join/index.html">SegmentJoin</a></h4>
+</td>
+<td>
+<code><span class="keyword">enum</span> <span class="keyword">class </span><span class="identifier">SegmentJoin</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-segment-projection/index.html">SegmentProjection</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">SegmentProjection</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-segment-projection3-d/index.html">SegmentProjection3D</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">SegmentProjection3D</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-segment-type/index.html">SegmentType</a></h4>
+</td>
+<td>
+<code><span class="keyword">enum</span> <span class="keyword">class </span><span class="identifier">SegmentType</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-shape/index.html">Shape</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">Shape</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-shape-builder/index.html">ShapeBuilder</a></h4>
+</td>
+<td>
+<p>Shape builder class, used by <a href="shape.html">shape</a></p>
+<code><span class="keyword">class </span><span class="identifier">ShapeBuilder</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-shape-contour/index.html">ShapeContour</a></h4>
+</td>
+<td>
+<code><span class="keyword">data</span> <span class="keyword">class </span><span class="identifier">ShapeContour</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-shape-node/index.html">ShapeNode</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">ShapeNode</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="-composition-node/index.html"><span class="identifier">CompositionNode</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-shape-topology/index.html">ShapeTopology</a></h4>
+</td>
+<td>
+<code><span class="keyword">enum</span> <span class="keyword">class </span><span class="identifier">ShapeTopology</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-stroke-weight/index.html">StrokeWeight</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">StrokeWeight</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="-composition-stroke-weight.html"><span class="identifier">CompositionStrokeWeight</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-text-node/index.html">TextNode</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">TextNode</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="-composition-node/index.html"><span class="identifier">CompositionNode</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="-winding/index.html">Winding</a></h4>
+</td>
+<td>
+<code><span class="keyword">enum</span> <span class="keyword">class </span><span class="identifier">Winding</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Extensions for External Classes</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="kotlin.collections.-list/index.html">kotlin.collections.List</a></h4>
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="compound.html">compound</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">compound</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$compound(kotlin.Function1((org.openrndr.shape.CompoundBuilder, kotlin.collections.List((org.openrndr.shape.Shape)))))/f">f</span><span class="symbol">:</span>&nbsp;<a href="-compound-builder/index.html"><span class="identifier">CompoundBuilder</span></a><span class="symbol">.</span><span class="symbol">(</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="contour.html">contour</a></h4>
+</td>
+<td>
+<p>Build a contour</p>
+<code><span class="keyword">fun </span><span class="identifier">contour</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$contour(kotlin.Function1((org.openrndr.shape.ContourBuilder, kotlin.Unit)))/f">f</span><span class="symbol">:</span>&nbsp;<a href="-contour-builder/index.html"><span class="identifier">ContourBuilder</span></a><span class="symbol">.</span><span class="symbol">(</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="-shape-contour/index.html"><span class="identifier">ShapeContour</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="contours.html">contours</a></h4>
+</td>
+<td>
+<p>Build multiple contours</p>
+<code><span class="keyword">fun </span><span class="identifier">contours</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$contours(kotlin.Function1((org.openrndr.shape.ContourBuilder, kotlin.Unit)))/f">f</span><span class="symbol">:</span>&nbsp;<a href="-contour-builder/index.html"><span class="identifier">ContourBuilder</span></a><span class="symbol">.</span><span class="symbol">(</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape-contour/index.html"><span class="identifier">ShapeContour</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="difference.html">difference</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">difference</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$difference(org.openrndr.shape.ShapeContour, org.openrndr.shape.ShapeContour)/from">from</span><span class="symbol">:</span>&nbsp;<a href="-shape-contour/index.html"><span class="identifier">ShapeContour</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$difference(org.openrndr.shape.ShapeContour, org.openrndr.shape.ShapeContour)/subtract">subtract</span><span class="symbol">:</span>&nbsp;<a href="-shape-contour/index.html"><span class="identifier">ShapeContour</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">difference</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$difference(org.openrndr.shape.Shape, org.openrndr.shape.ShapeContour)/from">from</span><span class="symbol">:</span>&nbsp;<a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$difference(org.openrndr.shape.Shape, org.openrndr.shape.ShapeContour)/subtract">subtract</span><span class="symbol">:</span>&nbsp;<a href="-shape-contour/index.html"><span class="identifier">ShapeContour</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">difference</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$difference(org.openrndr.shape.Shape, org.openrndr.shape.Shape)/from">from</span><span class="symbol">:</span>&nbsp;<a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$difference(org.openrndr.shape.Shape, org.openrndr.shape.Shape)/subtract">subtract</span><span class="symbol">:</span>&nbsp;<a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">difference</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$difference(kotlin.collections.List((org.openrndr.shape.Shape)), org.openrndr.shape.ShapeContour)/from">from</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$difference(kotlin.collections.List((org.openrndr.shape.Shape)), org.openrndr.shape.ShapeContour)/subtract">subtract</span><span class="symbol">:</span>&nbsp;<a href="-shape-contour/index.html"><span class="identifier">ShapeContour</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">difference</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$difference(kotlin.collections.List((org.openrndr.shape.Shape)), org.openrndr.shape.Shape)/from">from</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$difference(kotlin.collections.List((org.openrndr.shape.Shape)), org.openrndr.shape.Shape)/subtract">subtract</span><span class="symbol">:</span>&nbsp;<a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">difference</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$difference(kotlin.collections.List((org.openrndr.shape.Shape)), kotlin.collections.List((org.openrndr.shape.Shape)))/from">from</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$difference(kotlin.collections.List((org.openrndr.shape.Shape)), kotlin.collections.List((org.openrndr.shape.Shape)))/subtract">subtract</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">difference</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$difference(kotlin.collections.List((org.openrndr.shape.Shape)), kotlin.collections.List((kotlin.collections.List((org.openrndr.shape.Shape)))))/from">from</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$difference(kotlin.collections.List((org.openrndr.shape.Shape)), kotlin.collections.List((kotlin.collections.List((org.openrndr.shape.Shape)))))/subtract">subtract</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="filter.html">filter</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><a href="-composition-node/index.html"><span class="identifier">CompositionNode</span></a><span class="symbol">.</span><span class="identifier">filter</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$filter(org.openrndr.shape.CompositionNode, kotlin.Function1((org.openrndr.shape.CompositionNode, kotlin.Boolean)))/filter">filter</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="-composition-node/index.html"><span class="identifier">CompositionNode</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="-composition-node/index.html"><span class="identifier">CompositionNode</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="intersection.html">intersection</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">intersection</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$intersection(org.openrndr.shape.LineSegment, org.openrndr.shape.LineSegment, kotlin.Double)/a">a</span><span class="symbol">:</span>&nbsp;<a href="-line-segment/index.html"><span class="identifier">LineSegment</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$intersection(org.openrndr.shape.LineSegment, org.openrndr.shape.LineSegment, kotlin.Double)/b">b</span><span class="symbol">:</span>&nbsp;<a href="-line-segment/index.html"><span class="identifier">LineSegment</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$intersection(org.openrndr.shape.LineSegment, org.openrndr.shape.LineSegment, kotlin.Double)/eps">eps</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><span class="identifier">Double</span></a>&nbsp;<span class="symbol">=</span>&nbsp;0.0<span class="symbol">)</span><span class="symbol">: </span><a href="../org.openrndr.math/-vector2/index.html"><span class="identifier">Vector2</span></a></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">intersection</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$intersection(org.openrndr.math.Vector2, org.openrndr.math.Vector2, org.openrndr.math.Vector2, org.openrndr.math.Vector2, kotlin.Double)/a0">a0</span><span class="symbol">:</span>&nbsp;<a href="../org.openrndr.math/-vector2/index.html"><span class="identifier">Vector2</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$intersection(org.openrndr.math.Vector2, org.openrndr.math.Vector2, org.openrndr.math.Vector2, org.openrndr.math.Vector2, kotlin.Double)/a1">a1</span><span class="symbol">:</span>&nbsp;<a href="../org.openrndr.math/-vector2/index.html"><span class="identifier">Vector2</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$intersection(org.openrndr.math.Vector2, org.openrndr.math.Vector2, org.openrndr.math.Vector2, org.openrndr.math.Vector2, kotlin.Double)/b0">b0</span><span class="symbol">:</span>&nbsp;<a href="../org.openrndr.math/-vector2/index.html"><span class="identifier">Vector2</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$intersection(org.openrndr.math.Vector2, org.openrndr.math.Vector2, org.openrndr.math.Vector2, org.openrndr.math.Vector2, kotlin.Double)/b1">b1</span><span class="symbol">:</span>&nbsp;<a href="../org.openrndr.math/-vector2/index.html"><span class="identifier">Vector2</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$intersection(org.openrndr.math.Vector2, org.openrndr.math.Vector2, org.openrndr.math.Vector2, org.openrndr.math.Vector2, kotlin.Double)/eps">eps</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><span class="identifier">Double</span></a>&nbsp;<span class="symbol">=</span>&nbsp;0.0<span class="symbol">)</span><span class="symbol">: </span><a href="../org.openrndr.math/-vector2/index.html"><span class="identifier">Vector2</span></a></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">intersection</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$intersection(org.openrndr.shape.ShapeContour, org.openrndr.shape.ShapeContour)/from">from</span><span class="symbol">:</span>&nbsp;<a href="-shape-contour/index.html"><span class="identifier">ShapeContour</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$intersection(org.openrndr.shape.ShapeContour, org.openrndr.shape.ShapeContour)/with">with</span><span class="symbol">:</span>&nbsp;<a href="-shape-contour/index.html"><span class="identifier">ShapeContour</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">intersection</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$intersection(org.openrndr.shape.Shape, org.openrndr.shape.ShapeContour)/from">from</span><span class="symbol">:</span>&nbsp;<a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$intersection(org.openrndr.shape.Shape, org.openrndr.shape.ShapeContour)/with">with</span><span class="symbol">:</span>&nbsp;<a href="-shape-contour/index.html"><span class="identifier">ShapeContour</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">intersection</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$intersection(org.openrndr.shape.ShapeContour, org.openrndr.shape.Shape)/from">from</span><span class="symbol">:</span>&nbsp;<a href="-shape-contour/index.html"><span class="identifier">ShapeContour</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$intersection(org.openrndr.shape.ShapeContour, org.openrndr.shape.Shape)/with">with</span><span class="symbol">:</span>&nbsp;<a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">intersection</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$intersection(org.openrndr.shape.Shape, org.openrndr.shape.Shape)/from">from</span><span class="symbol">:</span>&nbsp;<a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$intersection(org.openrndr.shape.Shape, org.openrndr.shape.Shape)/with">with</span><span class="symbol">:</span>&nbsp;<a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">intersection</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$intersection(kotlin.collections.List((org.openrndr.shape.Shape)), org.openrndr.shape.ShapeContour)/from">from</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$intersection(kotlin.collections.List((org.openrndr.shape.Shape)), org.openrndr.shape.ShapeContour)/with">with</span><span class="symbol">:</span>&nbsp;<a href="-shape-contour/index.html"><span class="identifier">ShapeContour</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">intersection</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$intersection(kotlin.collections.List((org.openrndr.shape.Shape)), org.openrndr.shape.Shape)/from">from</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$intersection(kotlin.collections.List((org.openrndr.shape.Shape)), org.openrndr.shape.Shape)/with">with</span><span class="symbol">:</span>&nbsp;<a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">intersection</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$intersection(kotlin.collections.List((org.openrndr.shape.Shape)), kotlin.collections.List((org.openrndr.shape.Shape)))/from">from</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$intersection(kotlin.collections.List((org.openrndr.shape.Shape)), kotlin.collections.List((org.openrndr.shape.Shape)))/with">with</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">intersection</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$intersection(kotlin.collections.List((org.openrndr.shape.Shape)), kotlin.collections.List((kotlin.collections.List((org.openrndr.shape.Shape)))))/from">from</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$intersection(kotlin.collections.List((org.openrndr.shape.Shape)), kotlin.collections.List((kotlin.collections.List((org.openrndr.shape.Shape)))))/with">with</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="intersects.html">intersects</a></h4>
+</td>
+<td>
+<p>determines of <a href="intersects.html#org.openrndr.shape$intersects(org.openrndr.shape.Rectangle, org.openrndr.shape.Rectangle)/a">a</a> and <a href="intersects.html#org.openrndr.shape$intersects(org.openrndr.shape.Rectangle, org.openrndr.shape.Rectangle)/b">b</a> intersect</p>
+<code><span class="keyword">fun </span><span class="identifier">intersects</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$intersects(org.openrndr.shape.Rectangle, org.openrndr.shape.Rectangle)/a">a</span><span class="symbol">:</span>&nbsp;<a href="-rectangle/index.html"><span class="identifier">Rectangle</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$intersects(org.openrndr.shape.Rectangle, org.openrndr.shape.Rectangle)/b">b</span><span class="symbol">:</span>&nbsp;<a href="-rectangle/index.html"><span class="identifier">Rectangle</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="map.html">map</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><a href="-composition-node/index.html"><span class="identifier">CompositionNode</span></a><span class="symbol">.</span><span class="identifier">map</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$map(org.openrndr.shape.CompositionNode, kotlin.Function1((org.openrndr.shape.CompositionNode, )))/mapper">mapper</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="-composition-node/index.html"><span class="identifier">CompositionNode</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="-composition-node/index.html"><span class="identifier">CompositionNode</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="-composition-node/index.html"><span class="identifier">CompositionNode</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="path3-d.html">path3D</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">path3D</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$path3D(kotlin.Function1((org.openrndr.shape.Path3DBuilder, kotlin.Unit)))/f">f</span><span class="symbol">:</span>&nbsp;<a href="-path3-d-builder/index.html"><span class="identifier">Path3DBuilder</span></a><span class="symbol">.</span><span class="symbol">(</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="-path3-d/index.html"><span class="identifier">Path3D</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="rectangle-bounds.html">rectangleBounds</a></h4>
+</td>
+<td>
+<p>calculates <a href="-rectangle/index.html">Rectangle</a>-bounds for a list of <a href="-rectangle/index.html">Rectangle</a> instances</p>
+<code><span class="keyword">fun </span><span class="identifier">rectangleBounds</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$rectangleBounds(kotlin.collections.List((org.openrndr.shape.Rectangle)))/rectangles">rectangles</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-rectangle/index.html"><span class="identifier">Rectangle</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="-rectangle/index.html"><span class="identifier">Rectangle</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="sample-equidistant.html">sampleEquidistant</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">sampleEquidistant</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$sampleEquidistant(kotlin.collections.List((org.openrndr.math.Vector2)), kotlin.Int)/segments">segments</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="../org.openrndr.math/-vector2/index.html"><span class="identifier">Vector2</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$sampleEquidistant(kotlin.collections.List((org.openrndr.math.Vector2)), kotlin.Int)/count">count</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="../org.openrndr.math/-vector2/index.html"><span class="identifier">Vector2</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">sampleEquidistant</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$sampleEquidistant(kotlin.collections.List((org.openrndr.math.Vector3)), kotlin.Int)/pieces">pieces</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="../org.openrndr.math/-vector3/index.html"><span class="identifier">Vector3</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$sampleEquidistant(kotlin.collections.List((org.openrndr.math.Vector3)), kotlin.Int)/count">count</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="../org.openrndr.math/-vector3/index.html"><span class="identifier">Vector3</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="shape.html">shape</a></h4>
+</td>
+<td>
+<p>Build a shape</p>
+<code><span class="keyword">fun </span><span class="identifier">shape</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$shape(kotlin.Function1((org.openrndr.shape.ShapeBuilder, kotlin.Unit)))/f">f</span><span class="symbol">:</span>&nbsp;<a href="-shape-builder/index.html"><span class="identifier">ShapeBuilder</span></a><span class="symbol">.</span><span class="symbol">(</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="-shape/index.html"><span class="identifier">Shape</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="split.html">split</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">split</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$split(org.openrndr.shape.Shape, org.openrndr.shape.LineSegment)/shape">shape</span><span class="symbol">:</span>&nbsp;<a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$split(org.openrndr.shape.Shape, org.openrndr.shape.LineSegment)/line">line</span><span class="symbol">:</span>&nbsp;<a href="-line-segment/index.html"><span class="identifier">LineSegment</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html"><span class="identifier">Pair</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">,</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="triangulate.html">triangulate</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">triangulate</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$triangulate(org.openrndr.shape.Shape, kotlin.Double, org.openrndr.shape.FillRule)/shape">shape</span><span class="symbol">:</span>&nbsp;<a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$triangulate(org.openrndr.shape.Shape, kotlin.Double, org.openrndr.shape.FillRule)/distanceTolerance">distanceTolerance</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><span class="identifier">Double</span></a>&nbsp;<span class="symbol">=</span>&nbsp;0.5<span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$triangulate(org.openrndr.shape.Shape, kotlin.Double, org.openrndr.shape.FillRule)/fillRule">fillRule</span><span class="symbol">:</span>&nbsp;<a href="-fill-rule/index.html"><span class="identifier">FillRule</span></a>&nbsp;<span class="symbol">=</span>&nbsp;FillRule.NONZERO_WINDING<span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="../org.openrndr.math/-vector2/index.html"><span class="identifier">Vector2</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="union.html">union</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">union</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$union(org.openrndr.shape.ShapeContour, org.openrndr.shape.ShapeContour)/from">from</span><span class="symbol">:</span>&nbsp;<a href="-shape-contour/index.html"><span class="identifier">ShapeContour</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$union(org.openrndr.shape.ShapeContour, org.openrndr.shape.ShapeContour)/add">add</span><span class="symbol">:</span>&nbsp;<a href="-shape-contour/index.html"><span class="identifier">ShapeContour</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">union</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$union(org.openrndr.shape.Shape, org.openrndr.shape.ShapeContour)/from">from</span><span class="symbol">:</span>&nbsp;<a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$union(org.openrndr.shape.Shape, org.openrndr.shape.ShapeContour)/add">add</span><span class="symbol">:</span>&nbsp;<a href="-shape-contour/index.html"><span class="identifier">ShapeContour</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">union</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$union(org.openrndr.shape.Shape, org.openrndr.shape.Shape)/from">from</span><span class="symbol">:</span>&nbsp;<a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$union(org.openrndr.shape.Shape, org.openrndr.shape.Shape)/add">add</span><span class="symbol">:</span>&nbsp;<a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">union</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$union(kotlin.collections.List((org.openrndr.shape.Shape)), org.openrndr.shape.ShapeContour)/from">from</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$union(kotlin.collections.List((org.openrndr.shape.Shape)), org.openrndr.shape.ShapeContour)/add">add</span><span class="symbol">:</span>&nbsp;<a href="-shape-contour/index.html"><span class="identifier">ShapeContour</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">union</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$union(kotlin.collections.List((org.openrndr.shape.Shape)), org.openrndr.shape.Shape)/from">from</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$union(kotlin.collections.List((org.openrndr.shape.Shape)), org.openrndr.shape.Shape)/add">add</span><span class="symbol">:</span>&nbsp;<a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">union</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$union(kotlin.collections.List((org.openrndr.shape.Shape)), kotlin.collections.List((org.openrndr.shape.Shape)))/from">from</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$union(kotlin.collections.List((org.openrndr.shape.Shape)), kotlin.collections.List((org.openrndr.shape.Shape)))/add">add</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">union</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$union(kotlin.collections.List((org.openrndr.shape.Shape)), kotlin.collections.List((kotlin.collections.List((org.openrndr.shape.Shape)))))/from">from</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="org.openrndr.shape$union(kotlin.collections.List((org.openrndr.shape.Shape)), kotlin.collections.List((kotlin.collections.List((org.openrndr.shape.Shape)))))/add">add</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="-shape/index.html"><span class="identifier">Shape</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="vector2-bounds.html">vector2Bounds</a></h4>
+</td>
+<td>
+<p>calculates <a href="-rectangle/index.html">Rectangle</a>-bounds for a list of <a href="../org.openrndr.math/-vector2/index.html">Vector2</a> instances</p>
+<code><span class="keyword">fun </span><span class="identifier">vector2Bounds</span><span class="symbol">(</span><span class="identifier" id="org.openrndr.shape$vector2Bounds(kotlin.collections.List((org.openrndr.math.Vector2)))/points">points</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="../org.openrndr.math/-vector2/index.html"><span class="identifier">Vector2</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="-rectangle/index.html"><span class="identifier">Rectangle</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
